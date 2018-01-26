@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body{
+    background-color: hsl(69, 10%, 75%);
+    font-family: sans-serif;
+    font-size: 150%;
+    text-align: justify;
+
+}
+
+h1{
+    color: hsl(240, 65%, 25%);
+    letter-spacing: 50px;
+    margin-left: 46%;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+h2{
+    background-color: hsl(68, 30%, 30%);
+    color: hsl(0, 0%, 100%);
+    clear: both;
+}
+
+
+p.centrado{
+    text-align: center
+}
+
+
+strong{
+    font-style: oblique;
+}
+
+img.izquierda {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+img.derecha{
+    float: right;
+    margin-left: 10px;
+}
+
+address {
+    clear: both;
+    font-size: 75%
+}

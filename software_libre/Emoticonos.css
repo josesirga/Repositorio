@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+body{
+    background-color: hsl(4, 59%, 89%);
+    font-family: sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+    
+}
+
+h1{
+    background-color: hsl(1, 61%, 40%);
+    color:white;
+    text-align: center;
+    font-size: 300%;
+    margin-top:0%;
+    margin-left:0%;
+    margin-right:0%;
+    margin-bottom: 0%;
+    border-bottom: 0%;
+    font-variant: small-caps;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-bottom:white 10px solid;
+}
+h2{
+    background-color: hsl(1, 60%, 70%);
+    color:white;
+    font-family: cursive;
+    padding-left: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+
+}
+
+blockquote{
+    border:hsl(1, 61%, 40%) 5px solid;
+    font-size: 150%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url("logo_gnu.svg");
+    background-repeat: no-repeat;
+    background-position: 99% 60%;
+    background-size: 17% 85%; 
+    margin-left: 5%;
+    margin-right: 5%;
+ 
+}
+
+article{
+    border-left: hsl(1, 60%, 70%) 10px solid;
+    border-right: hsl(1, 60%, 70%) 10px solid;
+    border-right-style:double;
+    border-right-width: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+em{
+    text-decoration: underline;
+}
+
+em{
+    color:hsl(1, 60%, 70%);
+}
+
+p{
+    margin-left: 2%;
+}

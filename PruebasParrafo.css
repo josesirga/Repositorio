@@ -1,0 +1,35 @@
+body{
+    background-color: lightgray;
+}
+
+p{
+    background-color: chocolate;
+    position: absolute;
+    border:black 1px solid;
+
+}
+p#p1{
+    background-color: aqua;
+    left:20%;
+    width: 40%;
+    top: 10%;
+    height: 30%;
+    z-index: 5;
+}
+
+p#p2{
+    background-color: red;
+    left:30%;
+    width: 40%;
+    top: 20%;
+    height: 30%;
+    z-index: 1;
+}
+p#p3{
+    background-color: yellowgreen;
+    left:40%;
+    width: 40%;
+    top: 30%;
+    height: 30%;
+    z-index: 1;
+}

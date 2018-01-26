@@ -1,0 +1,56 @@
+@charset "utf-8"
+
+/* By Jose */
+
+
+
+@font-face {
+    font-family:"lobster" ;
+    src: url("lobster.woff2");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand" );
+
+@import url("https://fonts.googleapis.com/css?family=Ribeye+Marrow");
+
+body{
+    background-color: #CCAC4D;
+}
+
+h1{
+    font-family: "Ribeye Marrow", cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+p.introduccion{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 30%;
+    line-height: 200%;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+p.latin{
+    margin: 0;
+    font-family: "lobster",cursive;
+    font-size: 250%;
+}
+
+p.castellano{
+    margin: 0;
+    margin-bottom: 50px;
+    color:white;
+    font-family: "Just another hand",cursive;
+    text-align: right;
+    font-size: 375%;
+    font-style:oblique;
+    border: black 10px solid;
+}
+
+em{
+    text-decoration: underline;
+}

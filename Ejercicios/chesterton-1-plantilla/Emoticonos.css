@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body{
+    background-color: hsl(15, 20%, 50%);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -2.3%;
+    font-family: sans-serif;
+
+
+}
+
+h1{
+    background-color: hsl(15, 15%, 55%);
+    font-size: 355%;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+section{
+    background-color: hsl(16, 15%, 65%);
+
+
+}
+
+article{
+    background-color: hsl(16, 15%, 65%);
+}
+
+header{
+    background-color: hsl(15, 15%, 55%);
+    padding-left: 1%;
+}
+
+h2{
+    background-color: white;
+}
+
+p{
+    font-size: 140%
+}

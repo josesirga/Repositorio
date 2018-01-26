@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Cómo realizar los ejercicios. Ejercicios. . Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../varios/htmlcss.css" rel="stylesheet" type="text/css" title="mclibre" />
+  <link rel="icon" href="../varios/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="../varios/highlight-htmlcss.css" />
+  <script type="text/javascript" src="../varios/highlight.pack.js"></script>
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+</head>
+
+<body>
+  <h1>Ejercicios - Cómo realizar los ejercicios</h1>
+
+  <nav>
+    <p>
+      <a href="../index.html"><img src="../varios/iconos/icono-html5.svg" alt="Índice de HTML/CSS" title="Índice de HTML/CSS" width="42" height="48" /></a>
+      <a href="#"><img src="../varios/iconos/icono-arrow-circle-up.svg" alt="Principio de la página" title="Principio de la página" width="36" height="36" /></a>
+    </p>
+
+    <div class="toc">
+      <h2>Cómo hacer ejercicios</h2>
+
+      <ul>
+        <li><a href="#area-trabajo">Área de trabajo</a></li>
+        <li><a href="#material-proporcionado">Material proporcionado</a></li>
+        <li><a href="#pasos">Pasos a realizar</a>
+          <ul>
+            <li><a href="#descargar-sin-formatear">Descargar sin formatear</a></li>
+            <li><a href="#abrir-paginas">Disposición ventanas</a></li>
+            <li><a href="#crear-css">Crear y enlazar CSS</a></li>
+            <li><a href="#escribir-html">Escribir HTML</a></li>
+            <li><a href="#escribir-css">Escribir CSS</a></li>
+            <li><a href="#corregir-html-css">Corregir errores</a></li>
+          </ul>
+        </li>
+        <li><a href="#soluciones">Soluciones ejercicios</a></li>
+        <li><a href="#consejos-comentarios">Consejos y comentarios</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="area-trabajo">
+    <h3>Área de trabajo</h3>
+
+    <p>Independientemente del editor que vaya a realizar, se recomienda dedicar un directorio específico para guardar en él los ejercicios de este curso y las pruebas que usted realice.</p>
+
+    <ul>
+      <li>Con el Explorador de archivos cree en la carpeta Documentos la carpeta LMSGI en la que se guardarán todos los trabajos del curso:
+        <p class="captura">
+          <img src="../img/como/como-espacio-trabajo-1.png" alt="Espacio de trabajo" width="600" height="200" />
+        </p>
+      </li>
+      <li>Cree en la carpeta LMSGI la carpeta HTMLCSS en la que se guardarán los trabajos de la parte de HTML/CSS:
+        <p class="captura">
+          <img src="../img/como/como-espacio-trabajo-2.png" alt="Espacio de trabajo" width="600" height="200" />
+        </p>
+      </li>
+      <li>Cree en la carpeta HTMLCSS las carpetas ejercicios y pruebas en las que se guardarán respectivamente los ejercicios de clase y las pruebas
+        <p class="captura">
+          <img src="../img/como/como-espacio-trabajo-3.png" alt="Espacio de trabajo" width="600" height="200" />
+        </p>
+      </li>
+    </ul>
+
+    <hr class="corta" />
+
+    <p>Como se comenta en la lección <a href="http://localhost/mclibre/consultar/informatica/lecciones/vsc-curso-htmlcss.html">Configuración recomendada para el curso Páginas web HTML y hojas de estilo CSS</a>, si va a utilizar Visual Studio Code, debe abrir la carpeta HTMLCSS.</p>
+
+    <ul>
+      <li>En Visual Studio Code, elija la opción de menú <span class="soft-menu">Archivo &gt; Abrir carpeta...</span>:
+        <p class="captura">
+          <img src="../img/como/como-espacio-trabajo-4.png" alt="Espacio de trabajo" width="1024" height="200" />
+        </p>
+      </li>
+      <li>Se abrirá una ventana de selección de archivos. Abra la carpeta HTMLCSS creada anteriormente y haga clic en Seleccionar carpeta:
+        <p class="captura">
+          <img src="../img/como/como-espacio-trabajo-5.png" alt="Espacio de trabajo" width="1024" height="576" />
+        </p>
+      </li>
+      <li>Se desplegará la barra lateral mostrando el Explorador, que lista las pestañana abiertas y el contenido de la carpeta elegida. La barra lateral se muestra y oculta haciendo clic en los iconos de la izquierda. El Explorador se muestra y oculta haciendo clic en el primer icono.
+        <p>Para cerrar la pestaña que contiene la pantalla de Bienvenida, haga clic en el icono de cruz de la pestaña:</p>
+        <p class="captura">
+          <img src="../img/como/como-espacio-trabajo-6.png" alt="Espacio de trabajo" width="1024" height="350" />
+        </p>
+      </li>
+      <li>Al cerrar la pestaña, no se verá ningún documento en la zona de edición:
+        <p class="captura">
+          <img src="../img/como/como-espacio-trabajo-7.png" alt="Espacio de trabajo" width="1024" height="576" />
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="material-proporcionado">
+    <h2>Material proporcionado</h2>
+
+    <p>La mayoría de ejercicios consisten en obtener una página completamente formateada a partir del texto de la página sin etiquetas y las imágenes.</p>
+
+    <p>En la <a href="../ejercicios/index.html">página de ejercicios</a> se proporciona para cada ejercicio tres enlaces:</p>
+    <ul>
+      <li><strong>Formateado</strong>: La página web que se debe reproducir.</li>
+      <li><strong>Descargar sin formatear</strong>: Un archivo comprimido que contiene la(s) página(s) web sin formatear (el texto sin etiquetas html) y, en su caso, las imágenes necesarias.</li>
+      <li><strong>Comentarios</strong>: Una página de comentarios sobre el ejercicio.</li>
+    </ul>
+
+    <p class="captura">
+      <img src="../img/como/como-ejercicios-01.png" alt="Material proporcionado" width="991" height="360" />
+    </p>
+
+    <p>A partir de la página web sin formatear, el alumno debe:</p>
+    <ul>
+      <li>añadir a la página web todas las etiquetas necesarias</li>
+      <li>crear una hoja de estilo y escribir todas las sentencias necesarias</li>
+    </ul>
+  </section>
+
+  <section id="pasos">
+    <h2>Pasos a realizar</h2>
+
+    <p>Los pasos a realizar para realizar un ejercicio son los siguientes:</p>
+
+    <section id="descargar-sin-formatear">
+      <h3>Descargar la página sin formatear</h3>
+      <ul>
+        <li>En la página de ejercicios, haga clic en el enlace al archivo comprimido que contiene la página web sin formatear y, en su caso, las imágenes necesarias.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-11.png" alt="Descargar la página sin formatear" width="1024" height="380" />
+          </p>
+        </li>
+        <li>Se abrirá una ventana de diálogo. Elija el botón radio "Guardar archivo" y haga clic en el botón Aceptar:
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-12.png" alt="Descargar la página sin formatear" width="1024" height="465" />
+          </p>
+        </li>
+        <li>Una vez descargado el archivo, abra la carpeta de descargas haciendo clic en el botón de Descargas de la barra de dirección:
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-13.png" alt="Descargar la página sin formatear" width="1024" height="380" />
+          </p>
+        </li>
+        <li>Haga clic en el icono de carpeta correspondiente al fichero descargado:
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-14.png" alt="Descargar la página sin formatear" width="1024" height="370" />
+          </p>
+        </li>
+        <li>Se abrirá el explorador de Windows mostrando la carpeta de descargas:
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-15.png" alt="Descargar la página sin formatear" width="1024" height="200" />
+          </p>
+        </li>
+        <li>Mueva el archivo comprimido a la carpeta de ejercicios. Se pueden hacer carpetas por temas (texto, bordes, etc.).
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-16.png" alt="Descargar la página sin formatear" width="1024" height="200" />
+          </p>
+        </li>
+        <li>Descomprima el archivo comprimido. El arhivo contiene una carpeta por lo que no hace falta descomprimir el archivo en una carpeta. Se aconseja utilizar un gestor de archivos comprimidos como 7-zip (en el catalógo de <a href="http://www.cdlibre.org/">cdlibre.org</a> hay una sección dedicada a <a href="http://www.cdlibre.org/consultar/catalogo/Utilidades_Compresores.html">programas de compresión libres para Windows</a>). Con 7-zip instalado, haga clic derecho en el archivo comprimido y elija la opción <span class="soft-menu">7-zip &gt; Extraer aquí</span>.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-17.png" alt="Descargar la página sin formatear" width="1024" height="350" />
+          </p>
+        </li>
+        <li>Se creará una carpeta con el nombre del ejercicio.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-18.png" alt="Descargar la página sin formatear" width="1024" height="200" />
+          </p>
+        </li>
+        <li>Borre el archivo comprimido. Cambie el nombre de la carpeta, quitándole la parte final "-plantilla". Se aconseja hacerlo para evitar problemas si tuviera que volver a descomprimir el archivo comprimido de plantillas.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-19.png" alt="Descargar la página sin formatear" width="1024" height="200" />
+          </p>
+        </li>
+        <li>En la carpeta se encontrarán la(s) página(s) web sin formatear y, en su caso, las imágenes y fuentes necesarias.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-20.png" alt="Descargar la página sin formatear" width="1024" height="210" />
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="abrir-paginas">
+      <h3>Disposición de ventanas</h3>
+
+      <p>Las capturas siguientes corresponden al editor Visual Studio Code. En los <a href="http://www.mclibre.org/consultar/informatica/lecciones/brackets-ejer-como.html">apuntes de Informática general</a> de <a href="http://www.mclibre.org">mclibre.org</a> puede encontrar las capturas correspondientes al editor Brackets.</p>
+
+      <p>El número de ventanas y su disposición es una elección personal que depende también de la resolución y tamaño de la pantalla (o si se dispone de una o dos pantallas). Se propone a continuación una posible disposición en tres ventanas: una ventana de Visual Studio Code y dos ventanas de navegador. Para alternar entre ventanas utilizaríamos el atajo de teclado <span class="soft-atajo-teclado">Alt+Tab</span>):</p>
+
+      <p>Las ventanas pueden ser las siguientes:</p>
+      <ol>
+        <li>Abra en Visual Studio Code la página web del ejercicio sin formatear haciendo clic en el fichero:
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-24.png" alt="Disposición de ventanas" width="1024" height="576" />
+          </p>
+        </li>
+        <li>Abra una primera ventana del navegador. Abra en ella la página web del ejercicio sin formatear (en la lección <a href="http://www.mclibre.org/consultar/informatica/lecciones/vsc-curso-htmlcss.html#atajos-teclado">Configuración recomendada para el curso HTML y CSS</a> se explica cómo crear un atajo de teclado para hacerlo fácilmente desde Visual Studio Code):
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-25.png" alt="Disposición de ventanas" width="1024" height="280" />
+          </p>
+        </li>
+        <li>Abra una segunda ventana del navegador con dos pestañas:
+          <ul>
+            <li>en la primera pestaña, abra los apuntes del <a href="http://www.mclibre.org/consultar/htmlcss/index.html">curso Páginas web HTML y hojas de estilo CSS</a>:
+              <p class="captura">
+                <img src="../img/como/como-ejercicios-21.png" alt="Disposición de ventanas" width="1024" height="510" />
+              </p>
+            </li>
+            <li>en la segunda pestaña, abra la página de <a href="http://www.mclibre.org/consultar/htmlcss/ejercicios/index.html">ejercicios</a> y, a continuación, el ejercicio formateado a realizar:
+              <p class="captura">
+                <img src="../img/como/como-ejercicios-22.png" alt="Disposición de ventanas" width="1024" height="370" />
+              </p>
+              <p class="captura">
+                <img src="../img/como/como-ejercicios-23.png" alt="Disposición de ventanas" width="1024" height="370" />
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+      <p>La disposición de las ventanas pueden ser las siguientes:</p>
+      <ul>
+        <li>ventana de Visual Studio Code ocupando la mitad izquierda de la pantalla y primera ventana de navegador ocupando la mitad derecha de la pantalla, para ir viendo el estado de nuestra página a medida que la editamos.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-26.png" alt="Disposición de ventanas" width="1024" height="576" />
+          </p>
+        </li>
+        <li>Visual Studio Code ocupando la mitad izquierda de la pantalla y primera ventana de navegador ocupando la mitad derecha de la pantalla, para ver el resultado final que debemos conseguir e ir editando al mismo tiempo. En Visual Studio Code se puede minimizar la barra lateral para ampliar el espacio disponible para editar el documento.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-27.png" alt="Disposición de ventanas" width="1024" height="576" />
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="crear-css">
+      <h3>Crear y enlazar la hoja de estilo</h3>
+      <ul>
+        <li>En Visual Studio, abra la página web de la plantilla de ejercicio. El bloque <span class="html-eti">&lt;head&gt;</span> no contiene todas las etiquetas recomendadas, entre ellas el enlace a la hoja de estilo:
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-31.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="300" />
+          </p>
+        </li>
+        <li>En la lección <a href="../html/html-que-es.html#pagina-basica">Qué es una página web</a> se muestran las etiquetas mínimas recomendadas. Copie y pegue las dos líneas faltantes:
+        <div class="codigo">
+          <pre>
+<code class="language-html">&lt;head&gt;
+  &lt;meta charset="utf-8" /&gt;
+  &lt;title&gt;HTML 5&lt;/title&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+  &lt;link rel="stylesheet" type="text/css" href="estilo.css" /&gt;
+&lt;/head&gt;</code>
+</pre>
+        </div>
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-32.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="300" />
+          </p>
+        </li>
+        <li>Modifique el nombre de la hoja de estilo. El nombre de la hoja de estilo puede ser el mismo nombre de la página web o un nombre genérico (por ejemplo, estilo.css).
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-33.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="300" />
+          </p>
+        </li>
+        <li>Al situar el cursor sobre el enlace a la hoja de estilo, Visual Studio Code ofrece la posibilidad de abrir el archivo. Haga <span class="soft-atajo-teclado">Ctrl+clic</span> para abrir la hoja de estilo en una nueva pestaña de Visual Studio Code
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-34.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="300" />
+          </p>
+        </li>
+        <li>Como el fichero no existe, Visual Studio Code muestra una ventana de aviso. Haga clic en "Crear archivo"
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-35.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="300" />
+          </p>
+        </li>
+        <li>El archivo se creará (en este caso, en la misma carpeta donde está la página web) y se mostrará en una nueva pestaña:
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-36.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="350" />
+          </p>
+        </li>
+        <li>Para comprobar que la hoja está correctamente enlazada, escriba alguna regla en la hoja de estilo (por ejemplo, el color de fondo de la página).
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-37.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="300" />
+          </p>
+        </li>
+        <li>Guarde los archivos (página web y hoja de estilo) y en el navegador actualice la página para comprobar que se aplica el estilo.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-38.png" alt="Crear y enlazar la hoja de estilo" width="1024" height="280" />
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="escribir-html">
+      <h3>Asignar las etiquetas HTML en la página web</h3>
+
+      <p>El objetivo de los ejercicios es que el alumno aprenda a usar etiquetas y propiedades.</p>
+
+      <p>No se trata solamente de que la página creada por el alumno sea lo más parecida posible al original, sino que el alumno debe intentar utilizar las mismas etiquetas o propiedades. Es verdad que en muchos casos el resultado final se puede obtener combinando etiquetas y propiedades distintas a las utilizadas en la página de muestra, pero se pide al alumno que intente deducir el mayor número posible analizando la página (sin recurrir ni a las herramientas de desarrollador ni a mirar el código fuente).</p>
+
+      <p>Para deducir muchas de las etiquetas que se han utilizado en la página de muestra, desactive la hoja de estilo. Empiece el ejercicio añadiendo todas las etiquetas deducidas a partir de vista sin estilo.</p>
+
+      <p>A continuación, vuelva a activar la hoja de estilo. Cuando se activa la hoja de estilo podrá deducir la presencia de más etiquetas, que deberá añadir al ejercicio, y deberá deducir las propiedades de la hoja de estilo, que deberá añadir a su hoja de estilo.</p>
+
+      <p>Si en cualquiera de estas dos fases un resultado puede obtenerse con distintas etiquetas o propiedades, se puede utilizar cualquiera de ellas. Por ello, una vez terminado el ejercicio conviene revisar el código fuente original, para aprender en su caso otras formas de conseguir el resultado.</p>
+
+      <ul>
+        <li>Para desactivar la hoja de estilo en Firefox, elija el menú <span class="soft-menu">Ver &gt; Estilo de página &gt; Sin estilo</span>. Para hacer visible el menú, pulse la tecla <span class="atajo-soft-teclado">Alt</span>.
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-41.png" alt="Desactivar la hoja de estilo" width="1024" height="350" />
+          </p>
+        </li>
+        <li>Al quitar la hoja de estilo, el navegador aplica la hoja de estilo por omisión, lo que permite reconocer la mayoría de etiquetas (en los casos en que hay ambigüedad, se puede utilizar cualquiera de las que dan el mismo resultado).
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-42.png" alt="Desactivar la hoja de estilo" width="1024" height="420" />
+          </p>
+        </li>
+        <li>Una vez averiguadas las etiquetas de la vista sin estilo, active de nuevo la hoja de estilo con el menú <span class="soft-menu">Ver &gt; Estilo de página</span>. Este menú puede ofrecer la opción <span class="soft-menu">Estilo de página página</span>, si el enlace a la hoja de estilo no tiene atributo <span class="html-atri">title</span>, o cualquier otro texto (en el ejemplo se muestra el texto <span class="soft-menu">Color</span> ya el atributo <span class="html-atri">title</span> del enlace a la hoja de estilo tiene el valor "Color").
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-43.png" alt="Desactivar la hoja de estilo" width="1024" height="250" />
+          </p>
+        </li>
+      </ul>
+
+      <p>Para ayudar a la creación de etiquetas en Visual Studio Code, se recomienda instalar la extensión <a href="http://www.mclibre.org/consultar/informatica/lecciones/vsc-curso-htmlcss.html#extensiones#close-html-xml-tag">Close HTML/XML tag</a>.</p>
+    </section>
+
+    <section id="escribir-css">
+      <h3>Escribir la hoja de estilo</h3>
+
+      <p>Se aconseja escribir la hoja de estilo siguiendo las recomendaciones que se comentan en la lección <a href="../css/css-guia-estilo.html">Guía de estilo de las hojas de estilo</a>.</p>
+    </section>
+
+    <section id="corregir-html-css">
+      <h3>Corregir errores en las páginas web y en las hojas de estilo</h3>
+
+      <p><img src="../varios/iconos/icono-warning.svg" alt="¡Atención!" title="¡Atención!" width="55" height="48" />Este apartado está pendiente de actualizar para Visual Studio Code. Actualmente hace referencia a Brackets, el editor que utilicé durante el curso 2015/16.</p>
+
+      <p>Las páginas web y las hojas de estilo no deben contener errores.</p>
+
+      <p>Para facilitar la identificación de errores, se recomienda instalar las extensiones W3CValidation y CSSLint de Brackets. Pero no basta con tener instaladas las extensiones; es necesario fijarse a menudo en el icono de notificación de errores de estas extensiones mientras se están editando la página web o la hoja de estilo.</p>
+
+      <ul>
+        <li>La <a href="http://www.mclibre.org/consultar/informatica/lecciones/brackets-extensiones.html#brackets-extensiones-w3c-validation">extensión W3CValidation</a> muestra los errores en las páginas web, que deben corregirse todos</li>
+        <li>La <a href="http://www.mclibre.org/consultar/informatica/lecciones/brackets-extensiones.html#brackets-extensiones-csslint">extensión CSSLint</a> muestra los errores en las hojas de estilo, que deben corregirse todos, pero también consejos, que no tienen por qué corregirse, aunque sí tenerse en cuenta (véase la <a href="../css/css-csslint.html">lección sobre CSS Lint</a>).</li>
+      </ul>
+    </section>
+
+    <section id="soluciones">
+      <h2>Soluciones de los ejercicios</h2>
+
+      <p>La "solución" de cada ejercicio es el propio código fuente HTML y CSS de la página web y de su hoja de estilo.</p>
+
+      <p>Para ver el código fuente de una página, haga clic derecho sobre el texto de la página (no sobre las imágenes) y elija la opción "Ver código fuente de la página" o utilice el atajo de teclado <span class="soft-atajo-teclado">Ctrl+U</span>.</p>
+
+      <p class="captura">
+        <img src="../img/como/como-ejercicios-03.png" alt="Material proporcionado" width="991" height="382" />
+      </p>
+
+      <p>Se abrirá una pestaña mostrando el código fuente de la página formateada (es decir, la mitad de la "solución" del ejercicio). Para ver la hoja de estilo, haga clic en el enlace a la hoja de estilo.</p>
+
+      <p class="captura">
+        <img src="../img/como/como-ejercicios-04.png" alt="Material proporcionado" width="991" height="290" />
+      </p>
+
+      <p>En la misma pestaña se mostrará la hoja de estilo (es decir, la otra mitad de la "solución" del ejercicio).</p>
+
+      <p class="captura">
+        <img src="../img/como/como-ejercicios-05.png" alt="Material proporcionado" width="991" height="295" />
+      </p>
+
+      <p><strong>Nota</strong>: En el examen, el alumno tan sólo dispondrá de capturas de pantalla, no dispondrá de página de comentarios ni podrá acceder al código fuente.</p>
+    </section>
+
+    <section id="consejos-comentarios">
+      <h2>Consejos y comentarios generales</h2>
+
+      <ul>
+        <li>Se aconseja empezar añadiendo las etiquetas e imágenes en la página web y después dar las propiedades de estilo, pero se puede ir alternando entre las dos tareas, a elección del alumno.</li>
+
+        <li>Se aconseja al alumno que en un primer momento intente realizar el ejercicio sin consultar la página de comentarios ni consultar el código fuente de la página a reproducir.
+          <p>Si no es capaz de resolverlo, consulte la página de comentarios que le dará pistas sobre las etiquetas y propiedades de estilo utilizadas.</p>
+          <p>Si aún así no es capaz de resolverlo, consulte el código fuente de la página formateada.</p>
+        </li>
+
+        <li>Se puede considerar que se ha completado completamente un ejercicio cuando las páginas de muestra y la del alumno tienen un aspecto idéntico en el navegador, pero se pueden admitir pequeñas diferencias, como por ejemplo que dos distancias o tamaños sean ligeramente diferentes.
+
+          <p>En el examen, se admitirán como válidas pequeñas diferencias entre las páginas de muestra y la del alumno en lo que respecta a tamaños, distancias o colores.</p>
+        </li>
+
+        <li>En algunos ejercicios puede ser necesario comparar las páginas para diferentes tamaños de ventana.</li>
+
+        <li>Como en muchos casos se pueden conseguir los mismos resultados de varias maneras, una vez completado un ejercicio se aconseja siempre consultar el código fuente de la página de muestra y su hoja de estilo, para comparar.
+          <p>En el examen, cuando un mismo resultado se pueda conseguir de varias maneras, normalmente se admitirán como válidas todas ellas.</p>
+        </li>
+
+        <li>Los ejercicios incluyen en la parte inferior un enlace a la página principal de los apuntes que no es necesario reproducir al hacer los ejercicios:
+
+          <p class="captura">
+            <img src="../img/como/como-ejercicios-02.png" alt="Enlace inferior en las páginas de ejercicios" width="991" height="382" />
+          </p>
+        </li>
+      </ul>
+    </section>
+  </section>
+
+  <footer>
+    <p class="ultmod">Última modificación de esta página: 20 de octubre de 2017</p>
+
+    <p class="licencia"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"><img src="../varios/iconos/icono-cc-by-sa.svg" alt="Licencia Creative Commons" title="Licencia Creative Commons BY-SA" width="120" height="42" /></a><br />
+      Esta página forma parte del curso <strong>Páginas web HTML y hojas de estilo CSS</strong> por <a href="http://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a><br />
+      que se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.</p>
+  </footer>
+</body>
+</html>

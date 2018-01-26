@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* By Barto*/
+
+html {
+    background-color: hsl(196,14%,85%);
+    font-family: sans-serif
+}
+
+br{
+    background-color: #B6C3C9
+}
+
+h1{
+
+    font-size: 250%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    background-color:#B6C3C9
+}
+
+h3{
+    background-color:#98AAB3;
+    color:#576B75
+}
+
+p{
+    background-color: #B6C3C9
+}
+
+strong{
+    background-color: #0083B7
+}
+
+em{
+    background-color: #77B7C9
+}

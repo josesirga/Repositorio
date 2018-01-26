@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+html {
+    background-color: #D3DBDF;
+    font-family: :sans-serif
+
+}
+
+h1{
+    font-size: 250%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: :sans-serif;
+}
+
+h2{
+    background-color: #7B929E;
+    color:#415058 ;
+    font-size: 200%;
+    text-decoration: underline;
+    font-family: :sans-serif;
+
+}
+
+h3{
+    background-color: #98AAB3;
+    color: #576B75;
+    font-size:130%
+    font-family: :sans-serif;
+}
+
+p{
+    background-color:#B6C3C9;
+    text-align: justify
+    font-family: :sans-serif;
+}
+
+strong{
+    color: #0083B7;
+    font-weight: normal
+    font-family: :sans-serif;
+}
+
+em{
+    color:#0088CC;
+    font-style: normal;
+    font-weight: bold;
+    font-family: :sans-serif;
+
+}
+
+address{
+    background-color: #FFFFFF;
+    text-align: right;
+    font-weight: bold;
+    font-family: :sans-serif;
+}

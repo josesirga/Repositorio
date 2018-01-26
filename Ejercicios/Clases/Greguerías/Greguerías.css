@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+html{
+    background-color: #2C8652
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 300%
+
+}
+
+
+p.animales{
+    color:#F8DCAF;
+    font-family: sans-serif;
+    font-size: 150%
+}
+
+p.infancia{
+    color:white;
+    font-size: 150%;
+    font-style: oblique
+}
+
+p.metaforas{
+    color:#FF9F19;
+    font-family: monospace;
+    font-size: 200%;
+}
+
+p.numeros {
+    color: #E63B4F;
+    font-family: cursive;
+    font-size: 150%
+}

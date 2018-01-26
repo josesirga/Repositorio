@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* By Jose*/
+
+html{
+    background-color: rgb(138, 103, 92);
+    color: white;
+    font-family: sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 48px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-size: 150%;
+}
+
+img{
+    text-align: center;
+}

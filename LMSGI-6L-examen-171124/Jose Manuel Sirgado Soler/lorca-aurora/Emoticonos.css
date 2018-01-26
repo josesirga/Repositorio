@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body{
+    background-color: hsl(52, 11%, 71%);
+
+}
+
+h1{
+    font-family: sans-serif;
+    text-shadow: white 1px -1px;
+    color:hsl(52, 10%, 30%);
+    font-size:250%;
+    text-align: center;
+
+}
+
+h2{
+    margin-left: 10%;
+}
+
+p{
+    margin-left: 10%;
+}
+
+blockquote{
+    ;
+}

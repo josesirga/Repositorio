@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body{
+    background-color: #C4C6B9;
+    font-family: sans-serif;
+    font-size: 150%;
+}
+
+h1{
+    color: #161669;
+    letter-spacing: 50px;
+    text-transform: uppercase;
+    text-align:right;
+    font-weight: 900;
+
+}
+
+h2{
+    background-color: #5D6335;
+    color: white;
+}
+
+strong{
+    font-style: oblique;
+}
+
+img.izquierda{
+    float: left;
+}
+
+p.centrado{
+    float:center;
+}
+
+img.derecha{
+    float: right;
+}
+
